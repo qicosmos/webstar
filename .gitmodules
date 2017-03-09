@@ -1,0 +1,9 @@
+[submodule "third/iguana"]
+	path = third/iguana
+	url = https://github.com/qicosmos/iguana.git
+[submodule "third/cinatra"]
+	path = third/cinatra
+	url = https://github.com/topcpporg/cinatra.git
+[submodule "third/ormpp"]
+	path = third/ormpp
+	url = https://github.com/qicosmos/ormpp.git
