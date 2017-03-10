@@ -13,7 +13,7 @@ int main()
 	});
 
 	app.set_static_path("./web/static");
-	app.listen("127.0.0.1", "9000");
+	app.listen("0.0.0.0", "9000");
 	app.run();
 
 	return 0;
