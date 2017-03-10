@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BlogPost template by Adobe Dreamweaver CC</title>
+<link href="BlogPostAssets/styles/blogPostStyle.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script>
+	function test(){
+    $.get("/",function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+		alert("test");
+  }
+</script>
+</head>
+
+<body>
+<div id="mainwrapper">
+  <header> 
+    <!--**************************************************************************
+    Header starts here. It contains Logo and 3 navigation links. 
+    ****************************************************************************-->
+    <div id="logo"><a href="index.html"><img src="images/logo-sun.jpg" alt="sample logo"></a><!-- Company Logo text --></div>
+    <nav> <h3><a href="introduction.html" title="Link" id="introduction" >组织介绍</a> <a  onClick="test()" title="Link">开源项目</a><a href="#" title="Link">C++17</a><a href="#" title="Link">候选项目</a>
+    <a href="#" title="Link">加入组织</a><a href="#" title="Link">联系我们</a><a href="#" title="Link">登录</a><a href="register.html" title="Link">注册</a></h3></nav>
+	  <div id="title"><h2>Modern C++开源技术组织</h2><h2>Newer is better!</h2></div>
+  </header>
+  <div id="content">
+    <div class="notOnDesktop"> 
+      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
+      <input type="text" placeholder="Search">
+    </div>
+    <section id="mainContent"> 
+      <!--************************************************************************
+    Main Blog content starts here
+    ****************************************************************************-->
+      <h1><!-- Blog title -->Modern C++ 开源技术组织介绍</h1>
+      Undeifend Behavior组织是一个专注于modern c++开源技术的组织，不论你来自小公司还是大公司，不论你是集体还是个人，不论你是国内还是国外，只要满足加入组织的要求都可以申请加入UB组织。
+      <h1>使命</h1>
+      让现代C++在世界范围内广泛应用，提高开发效率和工业生产效率。
+      	<h1>加入组织的要求</h1>
+      	<p><li>贡献modern c++的开源项目</li>
+			<li>加入组织之前必须有拿得出手的开源项目</li>
+			<li>贡献的开源项目可以弥补modern c++中缺少的东西，或者做出比现状更好的东西，偏重于工程性</li>
+			<li>代码风格统一，有相关文档</li>
+			<li>有创新点</li>
+			<li>有技术信仰</li>
+		</p>
+		<h1>目标</h1>
+		孵化并进入boost，甚至标准库
+
+    </section>
+    <section id="sidebar"> 
+      <!--************************************************************************
+    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
+    ****************************************************************************-->
+      <input type="text" placeholder="Search">
+      <div id="adimage"><img src="images/bj.png" alt=""/></div>
+      <nav>
+        <ul>
+          <li><a href="http://purecpp.org/" title="purecpp">purecpp</a></li>
+          <li><a href="https://isocpp.org/" title="isocpp">isocpp</a></li>
+          <li><a href="http://cppnow.org/" title="cppnow">cppnow</a></li>
+          <li><a href="https://github.com/qicosmos" title="gitub">github(qicosmos)</a></li>
+        </ul>
+      </nav>
+    </section>
+
+  </div>
+  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
+</div>
+</body>
+</html>

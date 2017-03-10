@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/cinatra.dir/main.cpp.o  -o cinatra -rdynamic -Wl,-Bstatic -lboost_coroutine -Wl,-Bdynamic -lboost_context -lboost_system -lpthread 
