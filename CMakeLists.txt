@@ -64,6 +64,7 @@ add_library(cinatra_http STATIC ${CINATRA_HTTP_FILES})
 add_library(cinatra STATIC ${CINATRA_FILES})
 
 add_executable(webstar ${WEBSTAR_FILES})
+target_link_libraries(webstar dl)
 target_link_libraries(webstar cinatra cinatra_http ${Boost_LIBRARIES} ${OPENSSL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} ${EXTRA_LIB})
 
 #install(TARGETS cinatra DESTINATION lib)
